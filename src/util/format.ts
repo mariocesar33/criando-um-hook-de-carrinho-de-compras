@@ -1,4 +1,4 @@
-export const { format: formatPrice } = new Intl.NumberFormat('CV', {
+export const { format: formatPrice } = new Intl.NumberFormat('pt', {
   style: 'currency',
-  currency: 'ECV',
+  currency: 'CVE',
 });
